@@ -1,0 +1,100 @@
+.form
+{
+    position: relative;
+    background: #060c21;
+    border: 1px solid #000;
+    width: 750px;
+    padding: 40px 40px 60px;
+    margin-left: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form::before
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: linear-gradient(50deg,#e91e63,#5d02ff);
+    z-index: -1;
+    border-radius: 10px;
+}
+.form::before:hover{
+
+    transform:skewX(20deg);
+
+}
+.form h2
+{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.form .input
+{
+    margin-top: 40px;
+    text-align: left;
+}
+.form .input:focus{
+    background-color: white;
+}
+.form .input .inputBox
+{
+    margin-top: 10px;
+}
+.form .input .inputBox label
+{
+    display: block;
+    color: #000000;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.form .input .inputBox input
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    /* background:linear-gradient(315deg,#e91e63,#5d02ff) ; */
+
+    font-size: 18px;
+    border-radius: 15px;
+}
+.form .input .inputBox button
+{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    background-color:white;
+    
+}
+.form .input .inputBox button:hover
+{
+    background:green;
+}
+.form .input .inputBox button:active
+{
+    color: rgba(255, 255, 255, 0.521);
+    background:linear-gradient(315deg,#e91e6271,#5f02ff8c) ;
+}
+.forgot
+{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.forgot a
+{
+    color: #ff0800;
+}

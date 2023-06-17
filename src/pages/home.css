@@ -1,0 +1,192 @@
+.imgi img{
+    position: relative;
+    margin-left:80px;
+    display: flex;
+	width: 1200px;
+	height: 250px;
+	object-fit:fill;
+
+
+				
+	
+	
+}
+.imgi p{
+    font-size: 30px;
+    word-break: keep-all;
+	overflow-wrap: break-word;
+}
+
+
+/* step css */
+.step{
+	background-color:  #ccecea;
+}
+.sh p{
+	font-size:20px;
+	padding: 5px;
+	display: flex;
+	font-weight: bold;
+	padding-left: 430px;
+}
+.container p{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #cfeef3;
+	width:auto;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  .container .steps {
+	display: flex;
+	width: 100%;
+	justify-content:space-around;
+	position: relative;
+  }
+  .steps .circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 500;
+	border-radius: 50%;
+	background: #000000;
+	border: 4px solid #e0e0e0;
+	transition: all 200ms ease;
+	transition-delay: 0s;
+  }
+  .container p{
+	display: flex;
+	padding: 10px;
+	margin-right: 50px;
+	background-color: #444;
+	color: #fdfdfd;
+	border-radius: 5px;
+	height: 150px;
+	width: 300px;
+  } 
+  
+.container p:hover{
+	background-image: url("../images/pdf.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	box-shadow: 5px 10px 8px rgb(117, 226, 102);
+	color:black;
+  }
+  /* .steps .circle.active {
+	transition-delay: 100ms;
+	border-color: #4070f4;
+	color: #4070f4;
+  } */
+ 
+/* file upload css */
+.pdd{
+    height: auto;
+    width: auto;
+    background-color: rgb(247, 179, 192);
+}
+
+.frame {
+	position: relative;
+	top: 5%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	width: 1100px;
+	height: 500px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: linear-gradient(to top right, darkmagenta 0%, hotpink 100%);
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.center {
+	position:relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 300px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 20px;
+	font-weight: 300;
+	color: #666;
+	margin-right: 95px;
+}
+
+.dropzone {
+	width: 100px;
+	height: 80px;
+	border: 3px dashed #999;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.upload-icon {
+	margin: 25px 2px 2px 2px;
+}
+.dropzone:hover{
+	background-color: rgb(181, 231, 183);
+}
+.btn:hover{
+    content: "please select file";
+    background-color: rgb(37, 151, 33);
+   border: 3px solid red;
+}
+
+.upload-input {
+	position: relative;
+	top: -62px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.drop-title {
+	color: #444;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	transition: color .2s ease-in-out;
+}
+
+.btn {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background: darkmagenta;
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0 3px 0 0 hotpink;
+	transition: all 0.3s ease-in-out;
+	font-size: 14px;
+}
+
+.btn:hover {
+	background: rebeccapurple;
+	box-shadow: 0 3px 0 0 deeppink;
+}
+ 

@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  left:50%;
+  
+}
+hr{
+  height: 5px;
+  background-color: black;
+  border: none;
+}
+
